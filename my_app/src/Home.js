@@ -15,6 +15,7 @@ export default function Home() {
             <h3>Shahapur Bazar, Chatkhil, Noakhali</h3>
 
             <Link className='Link' to="/ac_print"> Account Details Print </Link>
+            
         </div>
 
 

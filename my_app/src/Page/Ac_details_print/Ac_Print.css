@@ -1,0 +1,184 @@
+.Bg_white{
+    background-color: white;
+}
+
+
+.AC_Print_Design{
+    margin-top: 50px;
+}
+
+
+/* ======================= */
+/* Text Dynamic side  */
+.Main_Left_Side{
+    float: left;
+    width: 50%;
+    margin-left: auto;
+    margin-right: auto;
+
+    
+}
+
+.Input_Box{
+    max-width: 5in;
+    height: 3.2in;
+    border: 1px solid #333;
+    display: block;
+    overflow: hidden;
+    padding: 10px;
+    margin: auto;
+    box-shadow: 0px 0px 20px 0px #6d6d6d;
+}
+
+.Input_Title{
+    text-align: center;
+    font-size: 25px;
+    font-weight: bold;
+    color: #1e7ae2;
+}
+.All_Input_Item{
+    display: inline-block;
+    padding: 10px;
+    /* margin: 10px; */
+}
+.All_Input_Item p{
+    font-size: 20px;
+    font-weight: bold;
+    /* padding: 10px; */
+    margin-top: 10px;
+}
+input{
+    padding: 10px;
+    width: 100%;
+    font-size: 20px;
+    color: #2062ae;
+    text-shadow: 1px 0px 0px #333;
+    letter-spacing: 3px;
+}
+
+.Submit_btn{
+    width: 5in;
+    display: block;
+    padding: 10px;
+    margin: auto;
+    justify-content: center;
+    align-items: center;
+    margin-top: 10px;
+    background-color: #2062ae;
+    color: white;
+    font-size: 20px;
+    font-weight: bold;
+    border-radius: 10px;
+    transition: 1000ms;
+}
+.Submit_btn:hover{
+    background-color: #1e7ae2;
+    color: black;
+    cursor: pointer;
+}
+
+
+
+/* =============== */
+/* Design side  */
+.Main_Right_Side{
+    float: right;
+    width: 50%;
+    margin-left: auto;
+    margin-right: auto;
+
+}
+
+
+.Print_Section{
+    max-width: 5in;
+    max-height: 3.2in;
+    border: 1px solid #333;
+    display: block;
+    overflow: hidden;
+    padding: 10px;
+    margin: auto;
+    box-shadow: 0px 0px 20px 0px #6d6d6d;
+}
+
+.Title{
+    display: flex;
+    margin-bottom: 5px;
+}
+
+.Left_Side{
+    float: left;
+    width: 55%;
+    margin-right: 5px;
+}
+.Logo{
+    max-width: 100%;
+}
+.Right_Side{
+    float: right;
+    width: 45%;
+    padding-left: 5px;
+    border-left: 3px solid #2062ae;
+}
+.AgentBanking{
+    color: #2062ae;
+    font-weight: bold;
+    font-size: 20px;
+}
+.Address{
+    font-weight: bold;
+    font-size: 18px;
+    color: #2a4a6f;
+}
+
+.Ac_Info{
+    text-align: center;
+    background-color: #2062ae;
+    padding: 5px;
+    color: white;
+    width: 50%;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 10px;
+    font-size: 18px;
+    font-weight: bold;
+}
+
+.Dynamic_Text{
+    margin-top: 5px;
+    font-weight: bold;
+    font-size: 20px;
+    margin-bottom: 5px;
+}
+
+table{
+    width: 100%;
+    background-color: white;
+}
+tr{
+
+}
+td{
+    padding: 5px;
+}
+table, tr, td{
+    border: 1px solid black;
+    border-radius: 5px;
+    background-color: white;
+}
+
+.Dynamic_AC_Info{
+    color: #2062ae;
+    background-color: white;
+    text-shadow: 1px 0px 0px #333;
+    letter-spacing:2px
+}
+
+
+.Emergency_Text{
+    font-size: 18px;
+    line-height: 22px;
+}
+
+
+
