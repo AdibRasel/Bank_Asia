@@ -5,6 +5,7 @@
 
 .AC_Print_Design{
     margin-top: 50px;
+    padding-right: 50px;
 }
 
 
@@ -75,6 +76,12 @@ input{
     background-color: #1e7ae2;
     color: black;
     cursor: pointer;
+    /* margin-top: 20px; */
+}
+.Print_btn{
+    width: 6.5in;
+    margin-top: 20px;
+    display: block;
 }
 
 
@@ -86,17 +93,17 @@ input{
     width: 50%;
     margin-left: auto;
     margin-right: auto;
-
+    display: contents;
 }
 
 
 .Print_Section{
-    max-width: 5in;
-    max-height: 3.2in;
+    max-width: 6.5in;
+    max-height: 4.5in;
     border: 1px solid #333;
     display: block;
     overflow: hidden;
-    padding: 10px;
+    padding: 20px;
     margin: auto;
     box-shadow: 0px 0px 20px 0px #6d6d6d;
 }
@@ -181,4 +188,10 @@ table, tr, td{
 }
 
 
+/* =============== */
+/* print css  */
 
+@page {
+	size: auto;
+	margin-top: 20px;
+}

@@ -1,6 +1,8 @@
 import React, { useRef } from 'react';
 // import {useRef, useEffect} from 'react';
 
+import "./Print_AC.js"
+
 import {NotificationContainer, NotificationManager} from 'react-notifications';
 import 'react-notifications/lib/notifications.css';
 
@@ -15,13 +17,15 @@ export default function Ac_details_print() {
 
   const Print =()=>{
 
-    var printContents = document.getElementById("Print_Section").innerHTML;
-    var originalContents = document.body.innerHTML;
+    const printContents = document.getElementById("Print_Section").innerHTML;
+    const originalContents = document.body.innerHTML;
 
     document.body.innerHTML = printContents;
+    
+
 
     window.print();
-
+    
     document.body.innerHTML = originalContents;
 
   }
@@ -131,10 +135,10 @@ export default function Ac_details_print() {
       </div>
 
     </div>
-    <button className='Submit_btn' onClick={Print}>Print</button>
     <NotificationContainer/>
 
   </section>
+    <button className='Submit_btn Print_btn' onClick={Print}>Print</button>
   
   
   </div>)
