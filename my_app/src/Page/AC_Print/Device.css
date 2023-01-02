@@ -1,0 +1,40 @@
+@media screen and (max-width: 735px) {
+    /* body{
+      width: 90%;
+      height: auto;
+      margin: auto;
+      padding: 0;
+    }   */
+    .AC_Info_Input_Box{
+        display: block;
+        /* width: 90%; */
+    }
+    .Ac_Name{
+        width: 90%;
+        border: 1px solid #333;
+        text-align: center;
+        background-color: white;
+        margin-left: auto;
+        margin-right: auto;
+        padding: 10px;
+    }
+    .Ac_Number{
+        width: 90%;
+        border: 1px solid #333;
+        text-align: center;
+        background-color: white;
+        margin-left: auto;
+        margin-right: auto;
+        padding: 10px;
+    }
+    .Ac_Phon_No{
+        width: 90%;
+        border: 1px solid #333;
+        text-align: center;
+        background-color: white;
+        margin-left: auto;
+        margin-right: auto;
+        padding: 10px;
+    }
+  
+  }
